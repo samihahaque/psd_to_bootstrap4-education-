@@ -1,0 +1,183 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width:423px) {
+    .section3_title img{
+    width:0%;
+}
+    .card .card_img .price_img{
+    position: absolute;
+    top:270px;
+    right:18%;
+}
+    .section3 .card{
+        margin:6% 0;
+    }
+    .common_title h1{
+        font-size:22px;
+    }
+    .section4 .btn{
+        width:70%;
+    margin-left:12%;
+    padding:4% 0;
+}
+    .section5 .profile{
+    padding:8% 0;
+}
+    .section7 .date_text h1{
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}
+    .section7 .date_text .blue{
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+     .section1_content a img{
+    width:45%;
+    padding:6% 0;
+}
+    .section3 .section3_title h1{
+    font-size: 22px;
+    font-weight: bold;
+}
+        .section8 .about{
+    padding-top:12%;
+}
+.section8 .insta{
+    padding-top:12%;
+}
+    .section8 .contact{
+    padding-top:12%;
+    padding-left: 5%;
+}
+    .section8 .form{
+    padding-top:12%;
+}
+    .card .card_img .price_img{
+    position: absolute;
+    top:210px;
+    right:5%;
+        
+}
+    .custom_footer li a{
+    font-size:14px;
+    font-weight: bold;
+    color:white;
+        border-left: none;
+}
+    .banner_text h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:#707070;
+}
+     .banner .scroller{
+    font-family:'Lato', sans-serif;
+    font-size: 18px;
+   padding-top:140%;
+    color:#707070;
+}
+}
+@media (max-width: 424px) and (min-width:375px){
+    .card .card_img .price_img{
+    position: absolute;
+    top:240px;
+    right:10%;
+}
+}
+@media (max-width: 575.98px) and (min-width:425px){ 
+.custom_footer li a{
+    border-left: none;
+}
+   
+    .banner .scroller{
+    font-family:'Lato', sans-serif;
+    font-size: 18px;
+   padding-top:100%;
+    color:#707070;
+}
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .banner .scroller{
+    font-family:'Lato', sans-serif;
+    font-size: 18px;
+   padding-top:10%;
+    color:#707070;
+}
+    .card{
+        margin:7% 0;
+    }
+     .section3_title img{
+    width:0%;
+}
+    .section4 .btn{
+       
+    margin-left:2%;
+    padding:4% 0;
+}
+    .card .card_img .price_img{
+    position: absolute;
+    top:55%;
+    right:12%;
+}
+    .section5 .profile{
+        margin:0 13%;
+    }
+    .section7 .date_text h1{
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}
+    .section7 .date_text span{
+        font-size: 20px;
+    }
+    .section7 .date_text .blue{
+        font-size: 20px;
+    } 
+    .section7 .fullborder_text{
+        padding-top: 8%;
+    }
+    .section8 .contact{
+    padding-top:15%;
+    padding-left: 5%;
+}
+    .section8 .form{
+    padding-top:15%;
+}
+    .banner .scroller{
+    font-family:'Lato', sans-serif;
+    font-size: 18px;
+   padding-top:50%;
+    color:#707070;
+}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .banner .scroller{
+    font-family:'Lato', sans-serif;
+    font-size: 18px;
+   padding-top:22%;
+    color:#707070;
+}
+    .custom_footer li a{
+    font-size:14px;
+    font-weight: bold;
+    color:white;
+    border-left: 1px solid white;
+}
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+    .card .card_img .price_img{
+    position: absolute;
+    top:47%;
+    right:4%;
+}
+}

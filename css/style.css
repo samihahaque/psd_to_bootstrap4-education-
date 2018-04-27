@@ -1,0 +1,375 @@
+body{
+    font-family:'Dosis', sans-serif;
+    background-image: url(../images/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    background-color: #ffd338;
+}
+.custom_drop{}
+.custom_drop a{
+    background-color: transparent;
+    border:none;
+}
+.custom_search{
+    color:white;
+}
+.custom_nav ul li a{
+    color:white !important;
+    transition:0.5s;
+    padding:0 0;
+    font-weight: bold !important;
+    font-size: 18px;
+}
+.custom_nav ul li a:hover{
+    color:white;
+    background-color: #f05c5c;
+    border-radius:20px;
+    transform: scale(1.03);
+}
+.banner{
+    min-height: 983px;
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner_text{
+    margin:25% 0;
+}
+.banner_text h1{
+    font-size: 80px;
+    font-weight: bold;
+    color:#707070;
+}
+.banner_text p{
+    padding-top:3%;
+    font-size: 48px;
+    font-weight: bold;
+    color:#1ec0ff;
+}
+.banner .scroller{
+    font-family:'Lato', sans-serif;
+    font-size: 18px;
+   padding-top:10%;
+    color:#707070;
+}
+.section1{
+    padding:7% 0;
+}
+.section1_content a img{
+    width:30%;
+    padding:4% 0;
+}
+.common_title{
+    padding:20px 0;
+    letter-spacing: 1.5px;
+}
+.common_title hr{
+    border:2px dashed white;
+    width:20%;
+}
+.common_title h1{
+    color: #333333;
+    font-size:30px;
+    font-weight: bold;
+}
+.section1_content h1{
+    letter-spacing: 1.5px;
+    color: #333333;
+    font-weight: bold;
+    font-size:24px;
+}
+.section1_content p{
+    color:#666665;
+    font-size: 14px;
+    font-weight: lighter;
+}
+.section1_content hr{
+    width:29%;
+    margin-left: 0;
+    border:2px solid #dddddd;
+}
+.section2{
+    background-image: url(../images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:4% 0;
+}
+.section2 .circle p{
+    font-size: 24px;
+    color:white;
+    font-weight: bold;
+}
+.section3{
+    padding-top:5%;
+    padding-bottom:3%;
+}
+.section3 .section3_title h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.custom_cardhead1{
+    background-color:#1ec0ff;
+}
+.custom_cardhead1 span{
+    padding:0 4%;
+}
+.custom_cardhead2{
+    background-color:#56d47e;
+}
+.custom_cardhead2 span{
+    padding:0 4%;
+}
+.custom_cardhead3{
+    background-color:#f05c5c;
+}
+.custom_cardhead3 span{
+    padding:0 4%;
+}
+.custom_cardhead4{
+    background-color:#ffd338;
+}
+.custom_cardhead4 span{
+    padding:0 4%;
+}
+.card .card-body h5{
+    font-weight: 700;
+}
+.blue{
+    color:#1ec0ff;
+}
+.green{
+    color:#56d47e;
+}
+.red{
+    color:#f05c5c;
+}
+.yellow{
+    color:#ffd338;
+}
+.card .main_img img{
+    width:100%;
+}
+.card .card-body .card-text{
+    font-size: 14px;
+    font-family:'Lato', sans-serif;
+}
+.card .card_img .main_img{
+    position: relative;
+}
+.card .card_img .price_img img{
+    width:100%;
+}
+.card .card_img .price_img{
+    position: absolute;
+    top:147px;
+    right:4%;
+}
+.card .card-footer h1{
+    font-size:16px;
+}
+.custom_btn{
+    background-color:#56d47e;
+    color: white;
+    font-weight: bold;
+    font-size:24px;
+    border-radius:50px;
+    margin:3% 0;
+}
+.section4{
+    background-image: url(../images/bg3.png);
+    padding-top:3.5%;
+    padding-bottom: 2%;
+}
+.section4 .btn{
+    padding:4% 0;
+}
+.section4 .btn img{
+    width:90%;
+}
+.section4 .contents{
+    padding:5% 0;
+}
+.common_title p{
+    padding:1% 0;
+    word-spacing: 15px;
+    font-size: 18px;
+    color:white;
+}
+.section5{
+    padding:3.5% 0;
+}
+.section5 .profile{
+    padding:2% 0;
+}
+.section5 .profile_info h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+.section5 .profile_info p{
+    font-size: 13px;
+    font-weight:normal;
+    font-family: 'Lato', sans-serif;
+}
+.section5 .fb{
+    color:#4366ff;
+    
+}
+.section5 .tw{
+    color:#1ec0ff;
+}
+.section5 .g{
+    color:#f05c5c;
+}
+.section5 .tum{
+    color:#0b3861;
+}
+.section5 .links p{
+    font-family:'Lato', sans-serif;
+    font-weight: lighter;
+    word-spacing: 2px;
+}
+.section5 .links i{
+    font-size: 50px;
+}
+.section5 .common_title{
+    padding:3% 0;
+}
+.section6{
+    background-color: #6e6e6e;
+    padding:3% 0;
+}
+.section6 .fullborder_text h1{
+    color:#56d47e;
+}
+.fullborder_text{
+    padding:2% 0;
+}
+.fullborder_text h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.fullborder_text hr{
+    width:17%;
+    border:2px dashed white;
+}
+.section6 .number h1{
+    font-size:60px;
+}
+.section6 .number p{
+    font-size:24px;
+}
+.section7 .fullborder_text hr{
+    width:50%;
+    border:2px dashed white;
+    margin-left:0;
+}
+.section7{
+    padding:9%;
+}
+.section7 .date_img img{
+    width:100%;
+}
+.section7 .activity_img img{
+    width:100%;
+}
+.section7 .date_text{
+    padding:9% 0;
+}
+.section7 .date_img{
+    padding:14% 0;
+}
+.section7 .activity_img{
+    padding:9% 0;
+}
+}
+.section7 .activity_img img{
+    width:100%;
+}
+.section7 .date_text h1{
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1.4px;
+}
+.section7 .date_text .blue{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+.gray{
+   color:#9f9f9f; 
+}
+.section8 .grey{
+    color:#9f9f9f;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+.section7 .date_text p{
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+.section7 .date_text h6{
+    font-size: 16px;
+    color:#fb9130;
+}
+.section7 .right hr{
+    width:28%;
+}
+.section8{
+    background-image:url(../images/cloud2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding:7% 0;
+}
+.section8 .fullborder_text h1{
+    font-size: 24px;
+}
+.section8 .about{
+    padding-top:70%;
+}
+.section8 .insta{
+    padding-top:70%;
+}
+.section8 .insta_img{
+    padding:20% 0;
+}
+.section8 .form{
+    padding-top:70%;
+}
+.section8 .contact{
+    padding-top:70%;
+    padding-left: 5%;
+}
+.section8 .contact p{
+    font-size: 13px;
+    font-family: 'Lato', sans-serif;
+}
+.section8 .contact i{
+    color:#9f9f9f; 
+}
+.section8 .insta_img img{
+    width:100%;
+}
+footer{
+    background-color:#ffd338;
+    padding:1% 0;
+}
+footer p{
+    color:white;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    padding-top: 2%;
+}
+.custom_footer li a{
+    font-size:16px;
+    font-weight: bold;
+    color:white;
+    border-left: 1px solid white;
+}
+.custom_footer li:first-child a{
+    border-left: none;
+}
