@@ -1,12 +1,22 @@
 /* Extra small devices (portrait phones, less than 576px)*/
-@media (max-width:423px) {
+
+@media (max-width: 575.98px){ 
+     .banner{
+    min-height: 683px;
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+   
+    .banner .scroller{
+    font-family:'Lato', sans-serif;
+    font-size: 18px;
+    padding-top:60%;
+    color:#707070;
+}
     .section3_title img{
     width:0%;
-}
-    .card .card_img .price_img{
-    position: absolute;
-    top:270px;
-    right:18%;
 }
     .section3 .card{
         margin:6% 0;
@@ -52,57 +62,24 @@
     .section8 .form{
     padding-top:12%;
 }
-    .card .card_img .price_img{
-    position: absolute;
-    top:210px;
-    right:5%;
-        
-}
+    .custom_footer{
+        padding:0 4%;
+    }
     .custom_footer li a{
     font-size:14px;
     font-weight: bold;
     color:white;
+        padding-left:14px;
         border-left: none;
+        
 }
     .banner_text h1{
     font-size: 50px;
     font-weight: bold;
     color:#707070;
+    
 }
-     .banner .scroller{
-    font-family:'Lato', sans-serif;
-    font-size: 18px;
-   padding-top:140%;
-    color:#707070;
-}
-}
-@media (max-width: 424px) and (min-width:375px){
-    .card .card_img .price_img{
-    position: absolute;
-    top:240px;
-    right:10%;
-}
-}
-@media (max-width: 575.98px) and (min-width:425px){ 
-.custom_footer li a{
-    border-left: none;
-}
-   .card .card_img .price_img{
-    position: absolute;
-    top:270px;
-    right:10%;
-}
-    .section2 .circle img{
-    width:80%;
-    border-radius:50%;
-    height:270px;
-}
-    .banner .scroller{
-    font-family:'Lato', sans-serif;
-    font-size: 18px;
-   padding-top:100%;
-    color:#707070;
-}
+  
 }
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -134,11 +111,7 @@
     margin-left:2%;
     padding:4% 0;
 }
-    .card .card_img .price_img{
-    position: absolute;
-    top:55%;
-    right:12%;
-}
+
     .section5 .profile{
         margin:0 13%;
     }
@@ -189,9 +162,5 @@
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
-    .card .card_img .price_img{
-    position: absolute;
-    top:47%;
-    right:4%;
-}
+
 }
